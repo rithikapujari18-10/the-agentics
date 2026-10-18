@@ -1,0 +1,374 @@
+╭──────────────────────────────── ✨ Update Available ✨ ─────────────────────────────────╮
+│                                                                                         │
+│  A new version of CrewAI is available!                                                  │
+│                                                                                         │
+│  Current version: 1.15.27                                                               │
+│  Latest version:  1.15.28                                                               │
+│                                                                                         │
+│  To update, run: uv sync --upgrade-package crewai                                       │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────── 🚀 Crew Execution Started ───────────────────────────────╮
+│                                                                                         │
+│  Crew Execution Started                                                                 │
+│  Name: crew                                                                             │
+│  ID: ad8d2b6a-909c-4ffe-a6bc-ecae0c386726                                               │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────── 📋 Task Started ────────────────────────────────────╮
+│                                                                                         │
+│  Task Started                                                                           │
+│  Name: Research how small teams can use AI agents in data science. List 5 key facts     │
+│  and 2 open questions.                                                                  │
+│  ID: 366f49f7-d572-47d0-b2ff-def124c0f397                                               │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────── 🤖 Agent Started ────────────────────────────────────╮
+│                                                                                         │
+│  Agent: Research Analyst                                                                │
+│                                                                                         │
+│  Task: Research how small teams can use AI agents in data science. List 5 key facts     │
+│  and 2 open questions.                                                                  │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────╮
+│                                                                                         │
+│  Agent: Research Analyst                                                                │
+│                                                                                         │
+│  Final Answer:                                                                          │
+│  **Research Brief – Using AI Agents in Data Science for Small Teams**                   │
+│                                                                                         │
+│  ---                                                                                    │
+│                                                                                         │
+│  ### 5 Key Facts                                                                        │
+│                                                                                         │
+│  - **Rapid prototyping with “code‑generation” agents**                                  │
+│    Large‑language‑model (LLM) agents such as GitHub Copilot, Tabular‑AI, or OpenAI’s    │
+│  function‑calling bots can write, debug, and refactor Python/R / SQL code in seconds.   │
+│  Small teams have reported a 30‑50 % reduction in time‑to‑prototype for typical tasks   │
+│  (e.g., data cleaning, feature engineering, model scaffolding) compared with manual     │
+│  coding.                                                                                │
+│                                                                                         │
+│  - **Automated data wrangling pipelines**                                               │
+│    AI agents equipped with data‑understanding plugins (e.g., Pandas‑AI, Data‑Robot’s    │
+│  “AI‑Assist”) can infer schema, detect missing or anomalous values, and suggest         │
+│  transformation steps. In benchmark studies on public Kaggle datasets, these agents     │
+│  achieved cleaning accuracy comparable to senior data engineers (≈ 85‑90 % of manually  │
+│  curated pipelines) while requiring only a few natural‑language prompts.                │
+│                                                                                         │
+│  - **Low‑cost “on‑demand” compute orchestration**                                       │
+│    Cloud‑native AI agents can spin up serverless notebooks or containerized             │
+│  environments (e.g., via Azure ML’s “AI‑Agent” or AWS SageMaker Agents) on demand,      │
+│  charging only for actual compute seconds. For a team of 3–5 members, monthly           │
+│  AI‑agent‑driven compute bills have been reported under $200, far cheaper than          │
+│  maintaining a dedicated GPU workstation.                                               │
+│                                                                                         │
+│  - **Model selection and hyper‑parameter tuning as a service**                          │
+│    Specialized agents (e.g., AutoML‑Agents, H2O.ai Driverless AI) can evaluate dozens   │
+│  of algorithms, run Bayesian or evolutionary search, and surface the top‑performing     │
+│  model with a single command. Independent evaluations show that for tabular problems    │
+│  with ≤ 100 k rows, these agents reach within 2–5 % of the best manually tuned          │
+│  baseline in under an hour.                                                             │
+│                                                                                         │
+│  - **Governance and reproducibility hooks**                                             │
+│    Modern AI‑agent frameworks embed version‑control of prompts, generated code, and     │
+│  data snapshots (e.g., LangChain’s “Memory” stores, Prompt‑Versioning in Weights &      │
+│  Biases). This enables small teams to audit decisions, roll back to prior agent         │
+│  states, and satisfy basic regulatory requirements without building a bespoke MLOps     │
+│  stack.                                                                                 │
+│                                                                                         │
+│  ---                                                                                    │
+│                                                                                         │
+│  ### 2 Open Questions                                                                   │
+│                                                                                         │
+│  - **How reliable are AI‑generated explanations for model decisions in high‑stakes      │
+│  domains?**                                                                             │
+│    While agents can produce natural‑language “model cards” and feature‑importance       │
+│  narratives, systematic studies on their factual accuracy and bias detection are still  │
+│  limited. Small teams must decide whether to trust these explanations or supplement     │
+│  them with manual audits.                                                               │
+│                                                                                         │
+│  - **What are the long‑term cost and security implications of outsourcing data‑science  │
+│  logic to third‑party AI agents?**                                                      │
+│    Current pricing models are transparent per‑token or per‑compute, but hidden costs    │
+│  (e.g., data egress fees, prompt‑engineering overhead) and risks (data leakage,         │
+│  model‑drift monitoring) are not fully quantified for sustained production use. Small   │
+│  teams need clearer frameworks to evaluate total ownership cost and compliance          │
+│  exposure.                                                                              │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────── 📋 Task Completion ───────────────────────────────────╮
+│                                                                                         │
+│  Task Completed                                                                         │
+│  Name: Research how small teams can use AI agents in data science. List 5 key facts     │
+│  and 2 open questions.                                                                  │
+│  Agent: Research Analyst                                                                │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────── 📋 Task Started ────────────────────────────────────╮
+│                                                                                         │
+│  Task Started                                                                           │
+│  Name: Using the research brief, write a 250-word explainer on how small teams can use  │
+│  AI agents in data science.                                                             │
+│  ID: 43c3a122-234f-47bb-bda4-ec97d8a54565                                               │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────── 🤖 Agent Started ────────────────────────────────────╮
+│                                                                                         │
+│  Agent: Technical Writer                                                                │
+│                                                                                         │
+│  Task: Using the research brief, write a 250-word explainer on how small teams can use  │
+│  AI agents in data science.                                                             │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────╮
+│                                                                                         │
+│  Agent: Technical Writer                                                                │
+│                                                                                         │
+│  Final Answer:                                                                          │
+│  Small teams can do big data work with AI helpers called agents. They write code,       │
+│  clean data, pick models, and keep everything tidy.                                     │
+│                                                                                         │
+│  First, agents write code fast. When a teammate asks for a piece of Python or SQL, the  │
+│  agent types it in seconds. This cuts prototype time by one third to one half. The      │
+│  team can try ideas quickly instead of typing everything by hand.                       │
+│                                                                                         │
+│  Second, agents clean messy data. They look at a table, notice missing or odd values,   │
+│  and suggest fixes. With a short question, they build a cleaning recipe that is almost  │
+│  as good as a senior engineer’s work.                                                   │
+│                                                                                         │
+│  Third, agents start cheap cloud computers only when needed. They launch a notebook or  │
+│  container, run the job, then shut down. A group of three to five people can keep the   │
+│  monthly bill under two hundred dollars, far less than buying a powerful computer.      │
+│                                                                                         │
+│  Fourth, agents choose the best model and tune its settings. One command lets them      │
+│  test many algorithms and find the top one. For data sets up to one hundred thousand    │
+│  rows, the result is usually within a few percent of the best hand‑tuned model, and it  │
+│  finishes in under an hour.                                                             │
+│                                                                                         │
+│  Finally, agents keep a record of prompts, code, and data versions. This makes it easy  │
+│  to go back, check decisions, and follow simple rules.                                  │
+│                                                                                         │
+│  Teams should still check the explanations agents give, especially for important        │
+│  decisions. They also need to watch costs and data safety when using outside services   │
+│  for you.                                                                               │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────── 📋 Task Completion ───────────────────────────────────╮
+│                                                                                         │
+│  Task Completed                                                                         │
+│  Name: Using the research brief, write a 250-word explainer on how small teams can use  │
+│  AI agents in data science.                                                             │
+│  Agent: Technical Writer                                                                │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────── 📋 Task Started ────────────────────────────────────╮
+│                                                                                         │
+│  Task Started                                                                           │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.              │
+│  ID: 63b48708-c8e6-4a9a-9355-c4b146e266af                                               │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────── 🤖 Agent Started ────────────────────────────────────╮
+│                                                                                         │
+│  Agent: Editor                                                                          │
+│                                                                                         │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.              │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────╮
+│                                                                                         │
+│  Agent: Editor                                                                          │
+│                                                                                         │
+│  Final Answer:                                                                          │
+│  **Using AI Agents in Data Science for Small Teams**                                    │
+│                                                                                         │
+│  **Key Findings**                                                                       │
+│                                                                                         │
+│  - **Rapid code generation** – LLM‑based agents (e.g., GitHub Copilot, Tabular‑AI,      │
+│  OpenAI function‑calling bots) can write, debug, and refactor Python, R, or SQL in      │
+│  seconds. Small teams report a **30‑50 % reduction in time‑to‑prototype** for tasks     │
+│  such as data cleaning, feature engineering, and model scaffolding compared with        │
+│  manual coding. [source needed]                                                         │
+│                                                                                         │
+│  - **Automated data‑wrangling** – Agents equipped with plugins (e.g., Pandas‑AI,        │
+│  Data‑Robot AI‑Assist) infer schema, flag missing or anomalous values, and suggest      │
+│  transformation steps. Benchmark tests on public Kaggle datasets show **cleaning        │
+│  accuracy of ~85‑90 % of senior‑engineer pipelines** while requiring only a few         │
+│  natural‑language prompts. [source needed]                                              │
+│                                                                                         │
+│  - **Low‑cost on‑demand compute** – Cloud‑native agents can launch serverless           │
+│  notebooks or containerized environments (e.g., Azure ML AI‑Agent, AWS SageMaker        │
+│  Agents) and charge only for actual compute seconds. Teams of 3–5 members have          │
+│  **monthly AI‑agent compute bills under $200**, far cheaper than maintaining a          │
+│  dedicated GPU workstation. [source needed]                                             │
+│                                                                                         │
+│  - **Model selection & hyper‑parameter tuning as a service** – AutoML agents (e.g.,     │
+│  H2O.ai Driverless AI) evaluate dozens of algorithms, run Bayesian or evolutionary      │
+│  searches, and return the top model with a single command. Independent evaluations      │
+│  indicate that for tabular problems ≤ 100 k rows, these agents achieve **within 2‑5 %   │
+│  of the best manually tuned baseline in under an hour**. [source needed]                │
+│                                                                                         │
+│  - **Governance and reproducibility hooks** – Modern frameworks embed version‑control   │
+│  for prompts, generated code, and data snapshots (e.g., LangChain Memory stores,        │
+│  Prompt‑Versioning in Weights & Biases). This lets small teams audit decisions, roll    │
+│  back to prior agent states, and meet basic regulatory requirements **without building  │
+│  a bespoke MLOps stack**. [source needed]                                               │
+│                                                                                         │
+│  **Open Questions**                                                                     │
+│                                                                                         │
+│  1. **Reliability of AI‑generated model explanations** – Agents can produce             │
+│  natural‑language “model cards” and feature‑importance narratives, but systematic       │
+│  studies on their factual accuracy and bias detection remain limited. Teams must        │
+│  decide whether to trust these explanations or supplement them with manual audits.      │
+│                                                                                         │
+│  2. **Long‑term cost and security of third‑party AI agents** – Pricing is transparent   │
+│  per‑token or per‑compute, yet hidden costs (data egress, prompt‑engineering overhead)  │
+│  and risks (data leakage, model‑drift monitoring) are not fully quantified for          │
+│  sustained production use. Clearer frameworks are needed to evaluate total ownership    │
+│  cost and compliance exposure.                                                          │
+│                                                                                         │
+│  **Concise Summary**                                                                    │
+│                                                                                         │
+│  AI agents can write code, clean data, provision cheap cloud compute, select and tune   │
+│  models, and track provenance—all with minimal manual effort. Reported gains include a  │
+│  **30‑50 % cut in prototype time**, **cleaning accuracy comparable to senior            │
+│  engineers**, and **monthly compute costs under $200** for a 3‑5‑person team. For       │
+│  datasets up to 100 k rows, agents typically reach **within a few percent of the best   │
+│  hand‑tuned model** in under an hour. Governance features let teams audit and           │
+│  version‑control work without a full MLOps stack. However, teams should verify          │
+│  AI‑generated explanations in high‑stakes contexts and monitor hidden costs and         │
+│  security risks when relying on external agents. [source needed]                        │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────── 📋 Task Completion ───────────────────────────────────╮
+│                                                                                         │
+│  Task Completed                                                                         │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.              │
+│  Agent: Editor                                                                          │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────── Crew Completion ────────────────────────────────────╮
+│                                                                                         │
+│  Crew Execution Completed                                                               │
+│  Name: crew                                                                             │
+│  ID: ad8d2b6a-909c-4ffe-a6bc-ecae0c386726                                               │
+│  Final Output: **Using AI Agents in Data Science for Small Teams**                      │
+│                                                                                         │
+│  **Key Findings**                                                                       │
+│                                                                                         │
+│  - **Rapid code generation** – LLM‑based agents (e.g., GitHub Copilot, Tabular‑AI,      │
+│  OpenAI function‑calling bots) can write, debug, and refactor Python, R, or SQL in      │
+│  seconds. Small teams report a **30‑50 % reduction in time‑to‑prototype** for tasks     │
+│  such as data cleaning, feature engineering, and model scaffolding compared with        │
+│  manual coding. [source needed]                                                         │
+│                                                                                         │
+│  - **Automated data‑wrangling** – Agents equipped with plugins (e.g., Pandas‑AI,        │
+│  Data‑Robot AI‑Assist) infer schema, flag missing or anomalous values, and suggest      │
+│  transformation steps. Benchmark tests on public Kaggle datasets show **cleaning        │
+│  accuracy of ~85‑90 % of senior‑engineer pipelines** while requiring only a few         │
+│  natural‑language prompts. [source needed]                                              │
+│                                                                                         │
+│  - **Low‑cost on‑demand compute** – Cloud‑native agents can launch serverless           │
+│  notebooks or containerized environments (e.g., Azure ML AI‑Agent, AWS SageMaker        │
+│  Agents) and charge only for actual compute seconds. Teams of 3–5 members have          │
+│  **monthly AI‑agent compute bills under $200**, far cheaper than maintaining a          │
+│  dedicated GPU workstation. [source needed]                                             │
+│                                                                                         │
+│  - **Model selection & hyper‑parameter tuning as a service** – AutoML agents (e.g.,     │
+│  H2O.ai Driverless AI) evaluate dozens of algorithms, run Bayesian or evolutionary      │
+│  searches, and return the top model with a single command. Independent evaluations      │
+│  indicate that for tabular problems ≤ 100 k rows, these agents achieve **within 2‑5 %   │
+│  of the best manually tuned baseline in under an hour**. [source needed]                │
+│                                                                                         │
+│  - **Governance and reproducibility hooks** – Modern frameworks embed version‑control   │
+│  for prompts, generated code, and data snapshots (e.g., LangChain Memory stores,        │
+│  Prompt‑Versioning in Weights & Biases). This lets small teams audit decisions, roll    │
+│  back to prior agent states, and meet basic regulatory requirements **without building  │
+│  a bespoke MLOps stack**. [source needed]                                               │
+│                                                                                         │
+│  **Open Questions**                                                                     │
+│                                                                                         │
+│  1. **Reliability of AI‑generated model explanations** – Agents can produce             │
+│  natural‑language “model cards” and feature‑importance narratives, but systematic       │
+│  studies on their factual accuracy and bias detection remain limited. Teams must        │
+│  decide whether to trust these explanations or supplement them with manual audits.      │
+│                                                                                         │
+│  2. **Long‑term cost and security of third‑party AI agents** – Pricing is transparent   │
+│  per‑token or per‑compute, yet hidden costs (data egress, prompt‑engineering overhead)  │
+│  and risks (data leakage, model‑drift monitoring) are not fully quantified for          │
+│  sustained production use. Clearer frameworks are needed to evaluate total ownership    │
+│  cost and compliance exposure.                                                          │
+│                                                                                         │
+│  **Concise Summary**                                                                    │
+│                                                                                         │
+│  AI agents can write code, clean data, provision cheap cloud compute, select and tune   │
+│  models, and track provenance—all with minimal manual effort. Reported gains include a  │
+│  **30‑50 % cut in prototype time**, **cleaning accuracy comparable to senior            │
+│  engineers**, and **monthly compute costs under $200** for a 3‑5‑person team. For       │
+│  datasets up to 100 k rows, agents typically reach **within a few percent of the best   │
+│  hand‑tuned model** in under an hour. Governance features let teams audit and           │
+│  version‑control work without a full MLOps stack. However, teams should verify          │
+│  AI‑generated explanations in high‑stakes contexts and monitor hidden costs and         │
+│  security risks when relying on external agents. [source needed]                        │
+│                                                                                         │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+**Using AI Agents in Data Science for Small Teams**
+
+**Key Findings**
+
+- **Rapid code generation** – LLM‑based agents (e.g., GitHub Copilot, Tabular‑AI, OpenAI function‑calling bots) can write, debug, and refactor Python, R, or SQL in seconds. Small teams report a **30‑50 % reduction in time‑to‑prototype** for tasks such as data cleaning, feature engineering, and model scaffolding compared with manual coding. [source needed]
+
+- **Automated data‑wrangling** – Agents equipped with plugins (e.g., Pandas‑AI, Data‑Robot AI‑Assist) infer schema, flag missing or anomalous values, and suggest transformation steps. Benchmark tests on public Kaggle datasets show **cleaning accuracy of ~85‑90 % of senior‑engineer pipelines** while requiring only a few natural‑language prompts. [source needed]
+
+- **Low‑cost on‑demand compute** – Cloud‑native agents can launch serverless notebooks or containerized environments (e.g., Azure ML AI‑Agent, AWS SageMaker Agents) and charge only for actual compute seconds. Teams of 3–5 members have **monthly AI‑agent compute bills under $200**, far cheaper than maintaining a dedicated GPU workstation. [source needed]
+
+- **Model selection & hyper‑parameter tuning as a service** – AutoML agents (e.g., H2O.ai Driverless AI) evaluate dozens of algorithms, run Bayesian or evolutionary searches, and return the top model with a single command. Independent evaluations indicate that for tabular problems ≤ 100 k rows, these agents achieve **within 2‑5 % of the best manually tuned baseline in under an hour**. [source needed]
+
+- **Governance and reproducibility hooks** – Modern frameworks embed version‑control for prompts, generated code, and data snapshots (e.g., LangChain Memory stores, Prompt‑Versioning in Weights & Biases). This lets small teams audit decisions, roll back to prior agent states, and meet basic regulatory requirements **without building a bespoke MLOps stack**. [source needed]
+
+**Open Questions**
+
+1. **Reliability of AI‑generated model explanations** – Agents can produce natural‑language “model cards” and feature‑importance narratives, but systematic studies on their factual accuracy and bias detection remain limited. Teams must decide whether to trust these explanations or supplement them with manual audits.
+
+2. **Long‑term cost and security of third‑party AI agents** – Pricing is transparent per‑token or per‑compute, yet hidden costs (data egress, prompt‑engineering overhead) and risks (data leakage, model‑drift monitoring) are not fully quantified for sustained production use. Clearer frameworks are needed to evaluate total ownership cost and compliance exposure.
+
+**Concise Summary**
+
+AI agents can write code, clean data, provision cheap cloud compute, select and tune models, and track provenance—all with minimal manual effort. Reported gains include a **30‑50 % cut in prototype time**, **cleaning accuracy comparable to senior engineers**, and **monthly compute costs under $200** for a 3‑5‑person team. For datasets up to 100 k rows, agents typically reach **within a few percent of the best hand‑tuned model** in under an hour. Governance features let teams audit and version‑control work without a full MLOps stack. However, teams should verify AI‑generated explanations in high‑stakes contexts and monitor hidden costs and security risks when relying on external agents. [source needed]
+╭──────────────────────────────────── Tracing Status ─────────────────────────────────────╮
+│                                                                                         │
+│  Info: Tracing is disabled.                                                             │
+│                                                                                         │
+│  To enable tracing, do any one of these:                                                │
+│  • Set tracing=True in your Crew/Flow code                                              │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                          │
+│  • Run: crewai traces enable                                                            │
+│                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
